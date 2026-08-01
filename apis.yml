@@ -1,4 +1,16 @@
 aid: radionomy-azerion
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/radionomy-azerion.png
 name: Radionomy (Azerion)
 description: 'Radionomy (Azerion) is a company surfaced as a portfolio company of bain-capital-ventures
   and added to the API Evangelist network as a stub for enrichment. Sector: ai-apps. This profile is a
@@ -12,10 +24,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Ai Apps
+- Audio
+- Internet Radio
+- Streaming
+- Media
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +39,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/radionomy-azerion-domain-security.yml
 - type: Website
   url: http://www.radionomy.com/index.html
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
